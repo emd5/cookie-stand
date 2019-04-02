@@ -30,14 +30,12 @@ Liz Mahoney
 
 # Changelog
 
-	## 4-1-19
-	- [x] Set up javascript object on app.js, applied functions to generate values.
-	- [x] Style index.html & sales.html
+## 4-1-19
+
+- [x] Set up javascript object on app.js, applied functions to generate values.
+- [x] Style index.html & sales.html
 
 # Helpful Resources
 [Problem Domain Document](./assets/support.md)
 
 [Assignment Assets](./assets)
-
-
-
