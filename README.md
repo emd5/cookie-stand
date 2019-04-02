@@ -2,6 +2,9 @@
 
 A business idea by combining two signature Seattle icons: Pat has developed a recipe for a coffee-time confection called Salmon Cookies.
 
+![Homepage](/assets/homepage.png)
+
+
 # Author
 
 Liz Mahoney
