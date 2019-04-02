@@ -1,3 +1,59 @@
-main {
+
+body{
+  margin: 0px;
   background-color: salmon;
 }
+
+header{
+  background-color: #255555;
+  text-align: center; 
+}
+
+header img{
+  width: 50%;
+  padding: 2em;
+}
+
+header h1{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+main {
+  padding: 5em 20em;
+
+}
+
+/* Nav bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+#locationData0{
+  back
+}
+
+
