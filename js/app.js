@@ -21,16 +21,21 @@ var location0 = {
   customer: generateCustomer(30),
   numberOfCookies: [],
   totalCookies: 140,
+  render(){
+    document.getElementById('location').innerHTML = location0.name;
+    //displays hours with number of cookies
+    let ulEl = document.getElementById('locationData');
+    for(let i= 0; i< hourly.length; i++) {
+      var liEl = document.createElement('li');
+      location0.numberOfCookies = randomCookies(location0.min, location0.max);
+      liEl.textContent = hourly[i] + ': ' + location0.numberOfCookies + ' cookies';
+      ulEl.appendChild(liEl);
+    }
+  }
 };
-document.getElementById('location0').innerHTML = location0.name;
-//displays hours with number of cookies
-let ulEl = document.getElementById('locationData0');
-for(let i= 0; i< hourly.length; i++) {
-  var liEl = document.createElement('li');
-  location0.numberOfCookies = randomCookies(location0.min, location0.max);
-  liEl.textContent = hourly[i] + ': ' + location0.numberOfCookies + ' cookies';
-  ulEl.appendChild(liEl);
-}
+
+location0.render();
+
 
 var location1 = {
   name: 'SeaTac Airport',

@@ -22,12 +22,14 @@ Liz Mahoney
 
 #  User Stories (Stretch... only after completing everything above)
 
- - [] As a developer, I want to make some headway on the public-facing page for the business
+ - [x] As a developer, I want to make some headway on the public-facing page for the business
 
 
 # Changelog
 
-	## Date
+	## 4-1-19
+	- [x] Set up javascript object on app.js, applied functions to generate values.
+	- [x] Style index.html & sales.html
 
 # Helpful Resources
 [Problem Domain Document](./assets/support.md)
