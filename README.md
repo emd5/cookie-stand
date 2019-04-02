@@ -23,7 +23,7 @@ Liz Mahoney
  - [x] Main page meets requirements of the problem domain
  - [x] Use template literals in your JS logic to render the stores as lists on the sales page
 
-#  User Stories (Stretch... only after completing everything above)
+# User Stories (Stretch... only after completing everything above)
 
  - [x] As a developer, I want to make some headway on the public-facing page for the business
 
