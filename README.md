@@ -9,31 +9,43 @@ A business idea by combining two signature Seattle icons: Pat has developed a re
 
 Liz Mahoney
 
-# User Stories (MVP)
 
- - [x] As a user, I want a webpage that displays individual store data for my Salmon Cookie Shops, so that I can be informed about how to run my business
- - [x] As a developer, I want to represent the store data in a list format on the webpage, so my client can view the information
- - [x] As a developer, I want to use object-oriented programming to build this site, so that the site will be more effective and the code will be easier to read and understand
+# User Stories and Feature Tasks
 
-# Technical Requirements
+## User Stories (MVP)
 
- - [x] New repository properly set up with a license and README, and cloned to local machine
- - [x] Working on a non-master branch, with regular commit history
- - [x] Good use of Object Literals **(no constructors allowed today)**; one for each store model; properties/values and methods are correctly constructed and given meaningful names
- - [x] Main page meets requirements of the problem domain
- - [x] Use template literals in your JS logic to render the stores as lists on the sales page
+- [x] As a developer, I want to implement a constructor function, so that I can reuse code and eliminate much of the duplication in my JavaScript
+- [x] As a user, I want cookie sales data represented in tables rather than lists
 
-# User Stories (Stretch... only after completing everything above)
+## Technical Requirements
 
- - [x] As a developer, I want to make some headway on the public-facing page for the business
-
+### Stretch Goals
+-[x] As a developer, I will continue to work on design aspects of the public-facing page.
+-[x] As a developer, to facilitate ongoing design work, I will make a style guide, using this one that a team Brian Nations was on made for everlast as a model.
+-[x] As a developer, to demonstrate to my client my ability to add value, I will create a second table that will help Pat manage staffing. Using the basic rubric that single Salmon Cookie Tosser can serve 20 customers per hour, and that each location should have a minimum of two Salmon Cookie Tossers on shift at all times, calculate how many Salmon Cookie Tossers are needed at each location each hour.
+- [x] As a user, I want to model my projected sales data as accurately as possible. Research into Pat’s customer traffic has shown that the hours of 8am, 11am, and 3pm tend to have more customers than other hours, and that the hours with the least customers are 1pm and 6pm. Apply a control curve to the projected sales numbers to reflect those daily ebbs and flows. The following array represents the percentage of maximum traffic that occurs during each of the hours from 6am to 8pm, and can be used to scale the projected hourly customer traffic into more accurate values
 
 # Changelog
+
+## 4-2-19
+
+- [x] A table to show the total amount of projected cookie needs at each location, with the table displaying the cookie stand location, the total number of cookies needed for each location, an hourly breakdown of total cookies sales for each location, and a footer row of totals for each column.
 
 ## 4-1-19
 
 - [x] Set up javascript object on app.js, applied functions to generate values.
 - [x] Style index.html & sales.html
+- [x] As a user, I want a webpage that displays individual store data for my Salmon Cookie Shops, so that I can be informed about how to run my business
+- [x] As a developer, I want to represent the store data in a list format on the webpage, so my client can view the information
+- [x] As a developer, I want to use object-oriented programming to build this site, so that the site will be more effective and the code will be easier to read and understand
+
+- [x] New repository properly set up with a license and README, and cloned to local machine
+- [x] Working on a non-master branch, with regular commit history
+- [x] Good use of Object Literals **(no constructors allowed today)**; one for each store model; properties/values and methods are correctly constructed and given meaningful names
+- [x] Main page meets requirements of the problem domain
+- [x] Use template literals in your JS logic to render the stores as lists on the sales page
+- [x] As a developer, I want to make some headway on the public-facing page for the business
+
 
 # Helpful Resources
 [Problem Domain Document](./assets/support.md)
