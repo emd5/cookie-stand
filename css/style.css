@@ -157,3 +157,16 @@ a#rotator img:hover {
     -ms-transform: rotate(360deg); 
     transform: translate()
 }
+
+
+form{
+  display: inline;
+}
+
+input{
+  line-height: 2em;
+}
+
+label{
+  width: 50%;
+}

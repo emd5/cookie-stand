@@ -33,7 +33,7 @@ SalmonShop.prototype.render = function() {
 
   trEl.textContent = this.shopLocation;
 
-  for(var i=0; i< hourly.length; i++){
+  for(var i in hourly){
     tdEl = document.createElement('td');
     tdEl.textContent = this.cookiesEachHour[i];
     trEl.appendChild(tdEl);
@@ -59,7 +59,7 @@ function makeHeaderRow(){
   thEl.textContent = 'Store Name';
   trEl.appendChild(thEl);
 
-  for( var i=0; i<hourly.length; i++){
+  for( var i in hourly){
     thEl = document.createElement('th');
     thEl.textContent = hourly[i];
     trEl.appendChild(thEl);
