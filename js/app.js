@@ -88,7 +88,7 @@ function allTotalSales(){
 function footerRow(){
   var trEl = document.createElement('tr');
   var tdEl = document.createElement('td');
-  
+
   tdEl.textContent = 'Totals';
   trEl.appendChild(tdEl);
 
@@ -110,7 +110,7 @@ function footerRow(){
   }
   tdEl = document.createElement('td');
   tdEl.textContent = totalHours;
-  trEl.appendChild(trEl);
+  trEl.appendChild(tdEl);
 
   salmonTable.appendChild(trEl);
 
