@@ -21,20 +21,20 @@
   </header>
   
   <main>
-    <form>
+    <form id="salmonForm">
       <fieldset>
-        <label>Store Name</label>
+        <label for="name">Store Name</label>
         <input name="name" type="text" placeholder="Enter store name" required>
 
-        <label>Min Cus</label>
-        <input name="min" type="text" placeholder="Min #" required>
+        <label for="min">Min Cus</label>
+        <input name="min" type="number" placeholder="Min #" required>
 
-        <label>Max Cus</label>
-        <input name="max" type="text" placeholder="Max #" required>
+        <label for="max">Max Cus</label>
+        <input name="max" type="number" placeholder="Max #" required>
 
-        <label>Avg Cookies</label>
-        <input name="avg" type="text" placeholder="Avg #" required>
-        
+        <label for="avg">Avg Cookies</label>
+        <input name="avg" type="number" step="any" placeholder="Avg #" required>
+
         <!--Add eventlistener ith form element-->
         <button type="submit">Submit</button> 
       </fieldset>
