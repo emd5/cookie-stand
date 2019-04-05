@@ -28,17 +28,19 @@ main {
 
 footer{
   background-color: #255555;
-  height: 10vh;
+  height: 20vh;
   text-align: center;
 }
 
 footer p{
   padding-top: 2em;
   color: white;
+  display: inline-flex;
 
 }
 
 /* Nav bar */
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -66,6 +68,8 @@ li a:hover {
 
 main{
   font-family: fantasy;
+  margin: auto;
+  
 }
 
 #homepage{
@@ -111,26 +115,6 @@ tr{
   color: white;
 }
 
-/* fish image animation */
-/* @-webkit-keyframes move
-{
-    from {
-        left: 0;
-    }
-    to {
-        left: 50%;
-    }
-}
-@keyframes move
-{
-    from {
-        left: 0;
-    }
-    to {
-        left: 100%;
-    }
-} */
-
 /* Reference stackoverflow - move-image-across-screen-with-css3 */
 a#rotator {
     text-decoration: none;
@@ -150,14 +134,13 @@ a#rotator img {
     }
 
 a#rotator img:hover { 
-    box-shadow: 0 3px 15px #000;
+    /* box-shadow: 0 3px 15px #000; */
     -webkit-transform: rotate(360deg); 
     -moz-transform: rotate(360deg); 
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg); 
     transform: translate()
 }
-
 
 form{
   display: inline;
@@ -169,4 +152,33 @@ input{
 
 label{
   width: 50%;
+}
+
+div{
+  display: inline-flex;
+}
+
+img{
+  /* height: 60%; */
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+
+span{
+  padding-right: 100px;
 }
